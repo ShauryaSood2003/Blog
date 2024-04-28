@@ -27,6 +27,8 @@ npm run dev
 - In wrangler.toml file update them 
  **DATABASE_URL="your-cloud-pool-link"** 
 **JWT_PASSWORD="your-jwt-password"**
+
+- Also add a .env file with DATABASE_URL="your_prisma_url" //normal url not pooled
   
 ## To deploy backend on Cloudflare
 
